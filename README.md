@@ -1,6 +1,6 @@
 # DC 토픽 분석기 (DCInside Topic Analyzer)
 
-DCInside 갤러리의 특정 기간 내 게시글을 수집하고, 핵심 토픽(토픽)을 분석하여 시각화하는 Chrome 확장 프로그램임.
+DCInside 갤러리의 특정 기간 내 게시글을 수집하고, 핵심 토픽(토픽)을 분석하여 시각화하는 Chrome 확장 프로그램.
 
 <br>
 
