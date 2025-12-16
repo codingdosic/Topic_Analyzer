@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "DC 떡밥 분석기",
+  "version": "0.2",
+  "description": "DCInside 갤러리의 실시간 핫 토픽을 분석합니다.",
+  "permissions": [
+    "scripting",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "*://gall.dcinside.com/*"
+  ],
+  "action": {
+    "default_title": "떡밥 분석기 열기",
+    "default_icon": {
+      "128": "images/icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["sidebar.html", "sidebar.css", "sidebar.js", "lib/chart.umd.js"],
+      "matches": ["*://gall.dcinside.com/*"]
+    }
+  ],
+  "icons": {
+    "16": "images/icon.png",
+    "32": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  }
+}
